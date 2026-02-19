@@ -1,12 +1,99 @@
-# React + Vite
+💰 Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and responsive Expense Tracker application built using React.js and Vite.
+The application allows users to manage income and expenses with real-time balance calculation using modern React state management techniques.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 https://ishanchhabra048.github.io/expense-tracker-app/
 
-## Expanding the ESLint configuration
+📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+➕ Add income and expense transactions
+
+➖ Delete transactions
+
+📊 Real-time balance calculation
+
+📋 Transaction history list
+
+⚡ Global state management using Context API
+
+🔄 useReducer for predictable state updates
+
+📱 Fully responsive UI
+
+🛠 Tech Stack
+
+React.js
+
+Vite
+
+Context API
+
+useReducer
+
+JavaScript (ES6+)
+
+CSS
+
+🧠 Key Concepts Used
+
+Component-based architecture
+
+Global state management
+
+React Hooks (useState, useContext, useReducer)
+
+Dynamic rendering
+
+Conditional styling
+
+Modular folder structure
+
+📂 Project Structure
+expense-tracker/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+
+⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/ishanchhabra048/expense-tracker-app.git
+
+
+Go into project folder:
+
+cd expense-tracker-app
+
+
+Install dependencies:
+
+npm install
+
+
+Run development server:
+
+npm run dev
+
+
+Build for production:
+
+npm run build
+
+👨‍💻 Author
+
+Ishan Chhabra
+GitHub: https://github.com/ishanchhabra048
+
+LinkedIn: https://www.linkedin.com/in/ishan-chhabra-542696277/
